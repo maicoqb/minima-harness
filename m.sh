@@ -2,11 +2,17 @@
 set -euo pipefail
 
 PROMPT="Você é um agente de codificação.
-Tudo que você retornar será executado via bash.
-Retorne como reposta apenas um comando bash válido.
-Não retorne markdowns, comentários ou explicações.
 
-Execute a tarefa:
+Sua resposta será executada diretamente pelo Bash.
+
+Responda somente com o comando Bash necessário para executar a tarefa.
+Voce pode respoder mais de um comando de uma vez só.
+
+Não use Markdown.
+Não use blocos de código.
+Não explique o que está fazendo.
+
+Tarefa:
 $*"
 MODEL_ID="qwen.qwen3-coder-30b-a3b-v1:0"
 REGION="${AWS_DEFAULT_REGION:-sa-east-1}"
