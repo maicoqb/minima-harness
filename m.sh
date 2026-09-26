@@ -14,7 +14,7 @@ Não explique o que está fazendo.
 
 Tarefa:
 $*"
-MODEL_ID="qwen.qwen3-coder-30b-a3b-v1:0"
+MODEL_ID="mistral.mistral-large-3-675b-instruct"
 REGION="${AWS_DEFAULT_REGION:-sa-east-1}"
 
 echo "===== chamando modelo ===="
